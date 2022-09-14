@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
+.map {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  overflow: visible
+}
+
+.location-icon {
+  font-size: 3rem;
+  color: red;
+}
+
+.location-info {
+  position: absolute;
+  top: 50px;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.location-info ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.location-info li {
+  padding: 5px 0px;
+
+}
+
+.header {
+  padding:  10px;
+  background-color: red;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  
+
+}
+  
+.header h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
